@@ -8,9 +8,9 @@ public class Multiple {
 
         System.out.println("Таблица умножения на 1: ");
 
-        for(int i=1;i<=10;i++) {
+        for (int i = 1; i <= 10; i++) {
 
-            System.out.println( j + "*" + i + "=" + i*j);
+            System.out.println(j + "*" + i + "=" + i * j);
         }
     }
 }
