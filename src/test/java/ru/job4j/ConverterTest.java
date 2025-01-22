@@ -14,7 +14,6 @@ class ConverterTest {
         float expected = 2;
         float output = (float) Converter.rubleToEuro(input);
         float value = 0.0001f;
-
         assertThat(output).isEqualTo(expected, withPrecision(value));
     }
 
@@ -26,6 +25,5 @@ class ConverterTest {
             float output = (float) Converter.rubleToDollar(input);
             float value = 0.0001f;
             assertThat(output).isEqualTo(expected, withPrecision(value));
-
     }
 }
