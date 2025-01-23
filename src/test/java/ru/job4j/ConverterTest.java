@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 class ConverterTest {
     @Test
+
     void whenConvert140RblThen2Euro() {
         float input = 140;
         float expected = 1.5555555f;
