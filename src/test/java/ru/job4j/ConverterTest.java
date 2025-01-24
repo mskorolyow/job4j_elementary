@@ -8,7 +8,7 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 class ConverterTest {
 
     @Test
-    void whenConvert140RblThen1Dot5555555() {
+    void whenConvert140RblThen1Dot5555555Euro() {
         float input = 140;
         float expected = 1.5555555f;
         float output = (float) Converter.rubleToEuro(input);
