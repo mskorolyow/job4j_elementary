@@ -9,8 +9,4 @@ public class Factorial {
         }
         return result;
     }
-
-    public static void main(String[] args) {
-        System.out.println(calculate(10));
-    }
 }
