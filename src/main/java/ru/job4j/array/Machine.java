@@ -23,17 +23,5 @@ public class Machine {
             }
         }
         return Arrays.copyOf(result, size);
-    }
-
-    public static void main(String[] args) {
-
-        int money = 50;
-        int price = 21;
-        int[] result = Machine.change(money, price);
-        //int[] expected = {10, 10, 5, 2, 2};
-
-        for (int x : result) {
-            System.out.print(x + " ");
-        }
-    }
+  }
 }
