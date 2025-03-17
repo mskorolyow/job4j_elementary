@@ -22,6 +22,7 @@ import java.util.Arrays;
  *         }
  *         return Arrays.copyOf(result, size);
  *   }
+ *   "Выполнил задание: Чтение кода и базовые ошибки [#40205]".
  */
 
 public class Machine {
