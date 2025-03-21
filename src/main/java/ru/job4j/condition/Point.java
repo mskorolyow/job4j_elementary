@@ -24,10 +24,7 @@ public class Point {
     }
 
     public double distance3d(Point that) {
-        double dx = this.x - that.x;
-        double dy = this.y - that.y;
-        double dz = this.z - that.z;
-        return Math.sqrt(dx * dx + dy * dy + dz * dz);
+        return Math.sqrt(pow(this.x - that.x, 2) + pow(this.y - that.y, 2) + pow(this.z - that.z, 2));
     }
 
     public static void main(String[] args) {
