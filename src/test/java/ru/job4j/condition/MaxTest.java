@@ -8,7 +8,7 @@ class MaxTest {
 
     @Test
     void whenMaxHaveOneVariables() {
-        Max max = new Max(0, 0);
+        Max max = new Max();
         int expected = 20;
         int output = max.max(10, 20);
         assertEquals(expected, output);
@@ -17,7 +17,7 @@ class MaxTest {
 
     @Test
     void whenMaxHaveTwoVariables() {
-        Max max = new Max(0, 0, 0);
+        Max max = new Max();
         int expected = 8;
         int output = max.max(3, 5, 8);
         assertEquals(expected, output);
@@ -25,7 +25,7 @@ class MaxTest {
 
     @Test
     void whenMaxHaveThreeVariables() {
-        Max max = new Max(0, 0, 0, 0);
+        Max max = new Max();
         int expected = 8;
         int output = max.max(3, 5, 8, 7);
         assertEquals(expected, output);
